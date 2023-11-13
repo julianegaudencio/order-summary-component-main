@@ -5,4 +5,48 @@
 
 body {
     font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
 }
+
+.card {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+}
+
+.img-ih {
+    width: 400px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.card h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    
+}
+
+.card p {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.img-im {
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+
+}
+
+
